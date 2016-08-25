@@ -1,4 +1,4 @@
-define(['jquery'], function ($) {
+define(['jquery', 'libs'], function ($, libs) {
   console.log('generic events loaded');
 
   function bindEvents () {

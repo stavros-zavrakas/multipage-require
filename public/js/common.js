@@ -1,8 +1,8 @@
 requirejs.config({
   paths: {
     'jquery': 'vendor/jquery',
-    'globalJqueryEvents': 'shared-components/global-jquery-events',
-    'libs': 'shared-components/libs'
+    'globalJqueryEvents': 'common/global-jquery-events',
+    'libs': 'common/libs'
   }
 });
 
