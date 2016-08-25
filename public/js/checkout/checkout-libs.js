@@ -1,7 +1,7 @@
 define(['jquery'], function ($) {
   return {
-    getHello: function () {
-      console.log('hello world');
+    getCustomer: function () {
+      console.log('get customer function call');
     }
   }
 });

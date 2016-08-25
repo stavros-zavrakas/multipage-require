@@ -1,4 +1,5 @@
 requirejs.config({
+  baseUrl: 'js',
   paths: {
     'jquery': '../vendor/jquery',
     'globalJqueryEvents': 'common/global-jquery-events',
