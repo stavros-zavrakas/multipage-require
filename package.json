@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:dev": "npm run prep:dir && npm run cp:jquery && npm run cp:require",
+    "prep:dir": "rimraf public/js/vendor/ && mkdir public/js/vendor/",
+    "cp:jquery": "cp node_modules/jquery/dist/jquery.js public/js/vendor/",
+    "cp:require": "cp node_modules/requirejs/require.js public/js/vendor/",
     "start": "http-server -p 5050",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +17,8 @@
     "http-server": "^0.9.0",
     "jquery": "^3.1.0",
     "requirejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4"
   }
 }
