@@ -1,6 +1,6 @@
 requirejs.config({
   paths: {
-    'jquery': 'vendor/jquery',
+    'jquery': '../vendor/jquery',
     'globalJqueryEvents': 'common/global-jquery-events',
     'libs': 'common/libs'
   }
