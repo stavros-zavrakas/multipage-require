@@ -1,0 +1,16 @@
+{
+  "name": "multipage-require",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stavros Zavrakas",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "jquery": "^3.1.0",
+    "requirejs": "^2.2.0"
+  }
+}
