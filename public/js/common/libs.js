@@ -22,7 +22,7 @@ define([], function () {
     }
   }
 
-  /* style checkboxes and radio inputs */
+  // style checkboxes and radio inputs
   function styleInputElements(container) {
     var selector;
 
